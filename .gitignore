@@ -1,0 +1,4 @@
+# Project exclude paths
+/IntelliJ IDEA 2019.3.4/plugins/JavaScriptLanguage/helpers/package-version-range-matcher/node_modules/
+/IntelliJ IDEA 2019.3.4/plugins/spy-js/server/node_modules/
+/out/

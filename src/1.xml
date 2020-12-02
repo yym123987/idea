@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- <?xml version="1.0" encoding="utf-8" ?>是xml文件的声明
+     version=1.0为xml版本
+     encoding="utf-8"为xml文件本身的编码即字符集
+-->
+<players>
+    <player n="23"><!--表示多个运动员属性，n为运动员号码-->
+        <name>詹姆斯</name> <!--表示一个运动员属性，运动员名字-->
+        <status>小前锋</status><!--表示球员场上位置-->
+        <height>2.06m</height><!--表示球员身高-->
+    </player>
+    <player n="3">
+        <name>韦德</name>
+        <status>得分后卫</status>
+        <height>1.98m</height>
+    </player>
+    <player n="2">
+        <name>莱昂纳德</name>
+        <status>
+            <![CDATA[<<<<]]>
+            得分后卫
+        </status>
+        <height>1.98m</height>
+    </player>
+</players>
